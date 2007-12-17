@@ -19,7 +19,6 @@ Source1:	%{name}.sh.bz2
 Source2:	%{name}rc.bz2
 URL: 		http://mind.riot.org/muh/
 Summary:	%{Summary}
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Epoch:		1
 
 %description
