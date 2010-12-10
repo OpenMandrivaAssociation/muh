@@ -1,6 +1,6 @@
 %define name	muh
 %define version	2.1
-%define release	%mkrel 0.rc1.5
+%define release	%mkrel 0.rc1.6
 #(peroyvind) ipv6 support seems to break ipv4 support
 %define ipv6    0
 %if %ipv6
