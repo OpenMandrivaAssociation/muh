@@ -65,8 +65,6 @@ bzcat %{SOURCE2} > $RPM_BUILD_ROOT%{_datadir}/%{name}/%{name}rc; chmod 644 $RPM_
 rm -rf $RPM_BUILD_ROOT
 
 
-%preun
-%_remove_install_info %{name}.info
 
 %files
 %defattr(-,root,root)
